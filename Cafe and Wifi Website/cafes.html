@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafes - Cafes with WiFi and Power for Remote Working</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script> <!-- Link to JavaScript file -->
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.jpg" alt="Café Logo" style="width: 120px; height: auto;">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="cafes.html">Cafes</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Cafes Section -->
+    <main>
+        <section class="cafes-section">
+            <h2>Featured Cafes</h2>
+            <div class="cafes-container">
+                <!-- Cafe 1 -->
+                <div class="cafe">
+                    <img src="images/cafe1.jpg" alt="Cafe Aroma">
+                    <h3>Cafe Aroma</h3>
+                    <p>Located in Downtown, serving fresh coffee and providing a great space for remote work.</p>
+                    <p><strong>WiFi:</strong> Yes | <strong>Power:</strong> Yes</p>
+                    <button class="btn-details" onclick="toggleDetails('cafe1-details')">See Details</button>
+                    <div id="cafe1-details" class="cafe-details">
+                        <p><strong>Address:</strong> 123 Downtown St, City</p>
+                        <p><strong>Opening Hours:</strong> Mon-Sun, 8:00 AM - 6:00 PM</p>
+                        <p><strong>Specialty:</strong> Organic Coffee & Fresh Juices</p>
+                    </div>
+                </div>
+
+                <!-- Cafe 2 -->
+                <div class="cafe">
+                    <img src="images/cafe2.jpg" alt="Java Junction">
+                    <h3>Java Junction</h3>
+                    <p>Cozy ambiance and reliable WiFi, perfect for getting your work done.</p>
+                    <p><strong>WiFi:</strong> Yes | <strong>Power:</strong> Yes</p>
+                    <button class="btn-details" onclick="toggleDetails('cafe2-details')">See Details</button>
+                    <div id="cafe2-details" class="cafe-details">
+                        <p><strong>Address:</strong> 456 Coffee Ave, City</p>
+                        <p><strong>Opening Hours:</strong> Mon-Fri, 7:00 AM - 5:00 PM</p>
+                        <p><strong>Specialty:</strong> Espresso & Sandwiches</p>
+                    </div>
+                </div>
+
+                <!-- Cafe 3 -->
+                <div class="cafe">
+                    <img src="images/cafe3.jpg" alt="Coffee Corner">
+                    <h3>Coffee Corner</h3>
+                    <p>Enjoy your coffee while working in a quiet and comfortable setting.</p>
+                    <p><strong>WiFi:</strong> Yes | <strong>Power:</strong> Yes</p>
+                    <button class="btn-details" onclick="toggleDetails('cafe3-details')">See Details</button>
+                    <div id="cafe3-details" class="cafe-details">
+                        <p><strong>Address:</strong> 789 Quiet Lane, City</p>
+                        <p><strong>Opening Hours:</strong> Mon-Sun, 9:00 AM - 7:00 PM</p>
+                        <p><strong>Specialty:</strong> Latte & Muffins</p>
+                    </div>
+                </div>
+
+                <!-- Cafe 4 -->
+                <div class="cafe">
+                    <img src="images/cafe4.jpg" alt="The Brew House">
+                    <h3>The Brew House</h3>
+                    <p>A modern cafe with lots of power outlets and super-fast WiFi.</p>
+                    <p><strong>WiFi:</strong> Yes | <strong>Power:</strong> Yes</p>
+                    <button class="btn-details" onclick="toggleDetails('cafe4-details')">See Details</button>
+                    <div id="cafe4-details" class="cafe-details">
+                        <p><strong>Address:</strong> 101 Tech Park, City</p>
+                        <p><strong>Opening Hours:</strong> 8:00 AM - 6:00 PM (Mon-Fri)</p>
+                        <p><strong>Specialty:</strong> Nitro Cold Brew & Croissants</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Cafes with WiFi and Power. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

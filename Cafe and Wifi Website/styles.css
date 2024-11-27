@@ -1,0 +1,247 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    width: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ff6347;
+}
+
+main {
+    padding: 40px 20px;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #ff6347;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.hero .btn-primary {
+    background-color: white;
+    color: #ff6347;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.hero .btn-primary:hover {
+    background-color: #ff4500;
+}
+
+/* Cafe Section */
+.cafes-section {
+    text-align: center;
+    padding: 40px 20px; /* Adjust top and bottom padding */
+    margin-bottom: 20px; /* Add space below the cafes-section */
+    background-color: #f9f9f9; /* Optional: section background color */
+}
+
+.cafes-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-top: 20px; /* Add space above the cafes-container */
+    justify-content: space-between;
+    gap: 20px; /* Spacing between items */
+}
+
+.cafe {
+    width: 250px;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cafe img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%; /* Make image width responsive */
+    height: 200px; /* Fixed height for all images */
+    object-fit: cover; /* Ensures images cover the area without distortion */
+}
+
+.cafe h3 {
+    font-size: 24px;
+}
+
+.cafe p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333; /* Dark background for contrast */
+    color: white; /* White text */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Contact Form */
+form {
+    display: grid;
+    gap: 15px;
+    max-width: 500px;
+    margin: 0 auto;
+    align: center;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e5533f;
+    color: white;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+.navbar .logo {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar .nav-links li {
+    margin-left: 15px;
+}
+
+.navbar .nav-links a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+}
+
+.navbar .nav-links a.active {
+    background-color: #555;
+    border-radius: 4px;
+}
+
+.about-section {
+    padding: 40px 20px;
+}
+
+.about-section h1 {
+    text-align: center;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.about-section h2 {
+    margin-top: 20px;
+    color: #555;
+}
+
+.about-section ul {
+    margin: 20px 0;
+    padding: 0 20px;
+    list-style-type: disc;
+}
+
+.about-section p, ul li {
+    margin: 10px 0;
+    text-align: justify;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.navbar .logo {
+    color: white;
+    text-decoration: none;
+    font-size: 20px; /* Increased font size for a bigger logo */
+    font-weight: bold; /* Optional: make it bold for more emphasis */
+}
